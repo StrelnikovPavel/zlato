@@ -1389,12 +1389,12 @@ body {
 @media (max-width: 100em) {
   .main-slider {
     height: 100vh;
-    min-height: 43.75rem;
+    min-height: 37.5rem;
   }
 }
-@media (max-width: 47.99875em) and (max-height: 23.5em) {
+@media (max-width: 47.99875em) {
   .main-slider {
-    min-height: 25rem;
+    min-height: 37.5rem;
   }
 }
 .main-slider__img img {
@@ -1536,11 +1536,12 @@ body {
 }
 @media (max-width: 61.99875em) {
   .main-slider__container {
-    padding-top: 4.375rem;
+    padding-top: 1.25rem;
   }
 }
 @media (max-width: 47.99875em) {
   .main-slider__container {
+    padding-top: 3.125rem;
     padding-bottom: 13.75rem;
   }
 }
