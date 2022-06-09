@@ -791,18 +791,14 @@ body {
   position: relative;
   z-index: 12;
 }
-.header__logo-img {
-  max-height: 100%;
-  max-width: 100%;
-}
 @media (min-width: 73.125em) {
   .header__logo-img {
-    width: 11.875rem;
+    width: 12.4375rem;
   }
 }
 @media (min-width: 20em) and (max-width: 73.125em) {
   .header__logo-img {
-    width: calc(7.5rem + 4.375 * (((100vw - 20rem)) / ((53.125))));
+    width: calc(7.5rem + 4.9375 * (((100vw - 20rem)) / ((53.125))));
   }
 }
 @media (max-width: 20em) {
@@ -815,9 +811,14 @@ body {
     width: 8.75rem;
   }
 }
+@media (max-width: 73.125em) {
+  .header__logo-img {
+    width: 8.75rem !important;
+  }
+}
 @media (max-width: 61.99875em) {
   .header__logo-img {
-    width: 8.125rem;
+    width: 8.125rem !important;
   }
 }
 @media (max-width: 47.99875em) {
